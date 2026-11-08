@@ -1,0 +1,41 @@
+.navigation-buttons {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+
+  margin-top: 25px;
+}
+
+.navigation-buttons button {
+  padding: 12px 24px;
+
+  background: #2563eb;
+  color: #ffffff;
+
+  border: 1px solid #2563eb;
+  border-radius: 8px;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.navigation-buttons button:hover {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+.navigation-buttons button:active {
+  transform: translateY(0);
+}
+
+.navigation-buttons button:disabled {
+  background: #374151;
+  border-color: #374151;
+  color: #9ca3af;
+  cursor: not-allowed;
+  transform: none;
+}

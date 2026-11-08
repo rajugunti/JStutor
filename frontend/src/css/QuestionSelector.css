@@ -1,0 +1,28 @@
+
+.question-selector {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.question-selector select {
+  padding: 10px 14px;
+  background: #1b202b;
+  color: #f8fafc;
+  border: 1px solid #343b49;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.question-selector select:focus {
+  border-color: #3b82f6;
+}
+
+.question-selector p {
+  color: #94a3b8;
+  font-size: 15px;
+}

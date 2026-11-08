@@ -1,0 +1,127 @@
+.answers-container {
+    width: 100%;
+    display: block;
+}
+
+
+.answer-box {
+    position: relative;
+    width: 100%;
+    min-height: 235px;
+    padding: 30px;
+    box-sizing: border-box;
+
+    background: #f4f4f5;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+
+    font-family: "Courier New", monospace;
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: left;
+
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+
+    cursor: text;
+}
+
+/* this is for answer */
+.answer-display {
+    width: 100%;
+    min-height: 170px;
+
+    font-family: monospace;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    word-break: normal;
+    letter-spacing: normal;
+}
+
+.answer-display span {
+    display: inline-block;
+}
+
+.answer-display .correct {
+    color: #111827;
+}
+
+.answer-display .wrong {
+    color: #ffffff;
+    background: #ef4444;
+    border-radius: 4px;
+}
+
+.answer-display .pending {
+    color: #94a3b8;
+}
+
+.typing-input {
+    position: absolute;
+
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+
+    left: 0;
+    bottom: 0;
+
+    border: none;
+    padding: 0;
+    margin: 0;
+
+    pointer-events: none;
+}
+
+.status {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px;
+
+    font-size: 14px;
+}
+
+.status-correct,
+.status-incorrect,
+.status-pending {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.status-correct {
+    color: black;
+}
+
+.status-incorrect {
+    color: #ef4444;
+}
+
+.status-pending {
+    color: #94a3b8;
+}
+
+.status-dot {
+    width: 6px;
+    height: 6px;
+
+    border-radius: 50%;
+    background: currentColor;
+}
+
+/* and ig this is for the correct and incorrect status */
+.status {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    right: 30px;
+    top: 200px;
+    display: flex;
+    gap: 18px;
+    font-size: 14px;
+}  

@@ -1,0 +1,27 @@
+
+.questions {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.questions p {
+    color: #94a3b8;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.questions h2 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.4;
+    text-align: left;
+    margin: 0;
+}
+#root .questions h2 {
+    color: #ffffff;
+    text-align: left;
+}
